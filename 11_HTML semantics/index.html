@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML semantics</title>
 </head>
+
 <body>
-    
+
+    <!-- old semantics -->
+    <div class="header"></div>
+    <div class="nav"></div>
+    <div class="content"></div>
+    <div class="footer"></div>
+    <!-- The div element has no special meaning at all. It represents its children.  -->
+
+    <!-- new semantics -->
+    <header></header>
+    <!-- The header element represents introductory content for its nearest ancestor sectioning content or sectioning root element. -->
+
+    <nav></nav>
+    <!-- The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links. -->
+
+    <section></section>
+    <!-- The section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. -->
+
+    <article></article>
+    <!-- The article element represents a complete, or self-contained, composition in a document, page, application, or site -->
+
+    <aside></aside>
+    <!-- The aside element represents a section of a page that consists of content that is tangentially related to the content around the aside element, -->
+
+    <footer></footer>
+    <!-- The footer element represents a footer for its nearest ancestor sectioning content or sectioning root element. -->
+
 </body>
+
 </html>
