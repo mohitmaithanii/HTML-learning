@@ -8,7 +8,32 @@
 </head>
 
 <body>
+    <h1>Forms in HTML</h1>
 
+    <form action="" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="">
+        <!-- The form element represents a collection of form-associated elements, some of which can represent editable values that can be submitted to a server for processing.
+        
+        action: The URI of a program that processes the form information. 
+
+        method: The HTTP method that the browser uses to submit the form.
+        -->
+
+        <label for="f-name">First Name</label>
+        <!-- The label element represents a caption in a user interface.
+        
+        for: The id of a labelable form-related element in the same document as the <label> element. 
+        -->
+
+        <input type="text" placeholder="First Name" name="" id="f-name">
+        <!-- The input element represents a typed data field, usually with a form control to allow the user to edit the data.
+        -->
+
+        <label for="l-name">Last Name</label>
+        <input type="text" placeholder="Last Name" name="" id="l-name">
+
+        <button type="submit">Submit</button>
+        <!-- The button element represents a button labeled by its contents. -->
+    </form>
 </body>
 
 </html>
